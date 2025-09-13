@@ -1,0 +1,24 @@
+.it-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-lg);
+  border: 0;
+  border-radius: var(--radius-md);
+  font-size: var(--font-md);
+  line-height: 1.2;
+  color: #fff;
+  cursor: pointer;
+  background: var(--color-primary);
+}
+
+.it-btn--primary { background: var(--color-primary); }
+.it-btn--danger  { background: var(--color-danger); }
+.it-btn--success { background: var(--color-success); }
+
+.it-btn:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
