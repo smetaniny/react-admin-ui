@@ -63,3 +63,6 @@ jspm_packages/
 
 # Storybook build outputs
 storybook-static/
+
+# Database files
+*.sql
